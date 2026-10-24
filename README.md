@@ -19,3 +19,10 @@ vercel --prod # production
 ## Editing
 - Text and links live in `index.html`.
 - Replace `photo-bw.jpg` to change the photo (square, black and white works best).
+
+## Resume button
+Add your resume as `resume.pdf` in the repo root. The "Download resume" button appears automatically once that file exists.
+
+## Link preview
+`og.png` is the image LinkedIn and WhatsApp show when you share the link. The meta tags in `index.html` point to
+`https://nethabharath.vercel.app/og.png`. If your Vercel domain is different, replace `nethabharath.vercel.app` in `index.html`.
